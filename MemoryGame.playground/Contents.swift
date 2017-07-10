@@ -2,11 +2,13 @@
 
 import UIKit
 
-for var n=0; n<=100; n++ {
+var n = 0...100
+
+for n in 0...100 {
     
     if n == 0 {
         print ("\(n) no cae en inguna categoría")
-    } else if n>=30 && n<=40 {
+    } else if n >= 30 && n <= 40 {
         print ("\(n) Viva Swift!!!")
     } else if (n % 5) == 0 {
         print ("\(n) Bingo!!!")
